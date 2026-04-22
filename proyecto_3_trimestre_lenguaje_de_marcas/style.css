@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+img {
+  width: 100%;
+  max-width: 1200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 28px;
+}
+
+h1 {
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 24px;
+  left: 160px;
+  position: fixed;
+  top: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  z-index: 100;
+  
+  
+}
+
+h2 {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+  position: fixed;
+  top: 320px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  z-index: 100;
+}
+
+a {
+  display: block;
+  width: 200px;
+  padding: 11px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+
+.nav-buttons {
+  position: fixed;
+  top: 16px;
+  right: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  z-index: 100;
+}
+
+a:first-of-type {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  align-items: right;
+  border: 1px solid #000000;
+}
+
+a:last-of-type {
+  background: rgb(255, 255, 255);
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+a:hover {
+  opacity: 0.8;
+}
