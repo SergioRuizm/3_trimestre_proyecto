@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 5px solid #ccc;
+    text-align: center;
+}
+
+
+input {
+    width: 70%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+img {
+  width: 100%;
+  max-width: 1600px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
