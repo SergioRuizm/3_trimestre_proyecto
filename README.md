@@ -10,11 +10,11 @@ Aplicación web de tipo "match" orientada al mundo tecnológico. Los usuarios pu
 - **Control de versiones:** Git / GitHub
 
 ## Estructura del repositorio
-backend/        # Código Java con Spring Boot
-frontend/       # HTML, CSS y JavaScript
-database/       # Script SQL de la base de datos
-scripts/        # Scripts de backup y arranque
-documentacion/  # Memoria técnica del proyecto
+- **backend:** Código Java con Spring Boot
+- **frontend:** HTML, CSS y JavaScript
+- **database:** Script SQL de la base de datos
+- **scripts:** Scripts de backup y arranque
+- **documentacion:** Memoria técnica del proyecto
 
 ## Funcionalidades
 
