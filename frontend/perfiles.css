@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f87ac5;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 1600px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #f87ac5;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #880e4f;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #880e4f;
+    margin-bottom: 8px;
+}
+
+p {
+    color: #c2185b;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.tecnologias span {
+    background-color: #f87ac5;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.botones button:first-child {
+    padding: 8px 20px;
+    background-color: #ff6eb4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botones button:last-child {
+    padding: 8px 20px;
+    background-color: #ff3d9a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botones button:hover {
+    opacity: 0.8;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #880e4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px auto;
+    display: block;
+}
+.navbar {
+    position: fixed;
+    top: 16px;
+    right: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    z-index: 100;
+}
+
+.navbar button {
+    padding: 8px 16px;
+    background-color: #880e4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar button:hover {
+    opacity: 0.8;
+}

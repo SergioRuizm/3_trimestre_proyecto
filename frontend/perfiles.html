@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfiles</title>
+    <link rel="stylesheet" href="perfiles.css">
+</head>
+<body>
+
+   <div id="contenedor">
+
+        <h2>Perfiles</h2>
+
+        <h3 id="nombre"></h3>
+        <p id="ciudad"></p>
+        <p id="descripcion"></p>
+        <div class="tecnologias" id="tecnologias"></div>
+
+    </div>
+
+   <div class="navbar">
+    <div class="menu-dropdown">
+        <button onclick="toggleMenu()">Menu ▼</button>
+        <div id="dropdown" style="display:none; position:absolute; right:0; background:#880e4f; border-radius:6px; padding:10px; z-index:200;">
+            <button onclick="verMiPerfil()">Mi perfil</button>
+             <button onclick="window.location.href='likes.html'">Mis likes</button>
+            <button onclick="window.location.href='matches.html'">Mis matches</button>
+            <button onclick="cerrarSesion()">Cerrar sesión</button>
+        </div>
+    </div>
+</div>
+    <script src="perfiles.js"></script>
+</body>
+</html>
